@@ -9,6 +9,7 @@ function Page() {
      
       <Button>click me</Button> 
       Page
+      Hi every one 
       </div>
   )
 }
