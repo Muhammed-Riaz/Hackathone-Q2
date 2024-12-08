@@ -2,7 +2,13 @@ import React from 'react'
 
 function About() {
   return (
-    <div>About page pendig</div>
+    <section>
+
+      <div>
+
+      </div>
+      
+    </section>
   )
 }
 
