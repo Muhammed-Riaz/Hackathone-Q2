@@ -5,7 +5,7 @@ import { CiTwitter } from "react-icons/ci";
 
 function Footer() {
   return (
-    <footer className="mt-20">
+    <footer className="mt-20 font-sans">
       {/* Top Section */}
       <div className="max-w-[1440px] mx-auto px-6 py-8 bg-[#FAFAFA] ">
         <div className="max-w-[1050px] mx-auto lg:flex flex-wrap justify-between items-center">
@@ -66,13 +66,13 @@ function Footer() {
           <div>
             <h2 className="text-2xl font-bold text-[#252B42]">Get In Touch</h2>
             <div className="mt-4">
-              <div className="flex  max-[52px] border-2 rounded overflow-hidden">
+              <div className="flex items-center w-[250px] lg:w-[321px] h-[58px] border-2 rounded overflow-hidden">
                 <input
                   type="text"
-                  className="flex-grow p-3 text-[#737373] w-28 placeholder-gray-500"
+                  className="flex-grow py-[10px] lg:px-[20px] px-5 w-[120px] lg:w-[150px] h-[28px] text-[#737373]  placeholder-gray-500"
                   placeholder="Your Email"
                 />
-                <button className="bg-[#23A6F0] text-white px-5">Subscribe</button>
+                <button className="bg-[#23A6F0] rounded-[5px] w-[121px] h-[58px] text-white ">Subscribe</button>
               </div>
               <p className="text-[#737373] mt-3 text-sm">
                 Lorem ipsum dolor sit amet.

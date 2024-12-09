@@ -3,7 +3,7 @@ import React from 'react';
 
 function Hero() {
   return (
-    <main className="max-w-screen-2xl mt-8">
+    <main className="max-w-screen-2xl mt-8 font-sans">
       {/* Hero Section */}
       <div className="relative">
         <div className="bg-[url('/hero.jpg')] bg-cover bg-center h-screen w-full flex items-center justify-center text-center lg:justify-start lg:text-left lg:px-32 px-5 relative z-20">
@@ -24,7 +24,7 @@ function Hero() {
 
       {/* Editor Picks Section */}
       <div className="bg-[#FAFAFA]">
-        <div className="text-center mt-10 py-20">
+        <div className="text-center mt-10 py-20 px-5">
           <b className="text-[#737373] text-2xl">EDITORS PICKS</b>
           <p className="text-[#737373] pt-6">Problems trying to resolve the conflict between</p>
         </div>
@@ -33,24 +33,25 @@ function Hero() {
           {/* Card 1 */}
           <div className="relative">
             <Image src="/img1.png" width={510} height={500} alt="Men" />
-            <p className="absolute bottom-5 left-5 bg-white text-center py-2 px-4">MEN</p>
+            <p className="absolute lg:bottom-14 bottom-5 left-5 bg-white text-center py-2 px-4">MEN</p>
           </div>
           {/* Card 2 */}
-          <div className="relative">
+          <div className="relative flex flex-col justify-center items-center">
             <Image src="/img2.png" width={240} height={500} alt="Women" />
-            <p className="absolute bottom-5 left-5 bg-white text-center py-2 px-4">WOMEN</p>
+            <p className="absolute bottom-5  left-10 bg-white text-center py-2 px-4">WOMEN</p>
           </div>
           {/* Card 3 */}
-          <div>
-            <div className="relative mb-5">
+          <div >
+            <div className="relative mb-5 flex flex-col justify-center items-center">
               <Image src="/img3.png" width={240} height={242} alt="Accessories" />
-              <p className="absolute bottom-5 left-5 bg-white text-center py-2 px-4">ACCESSORIES</p>
+              <p className="absolute bottom-5 left-10 bg-white text-center py-2 px-4">ACCESSORIES</p>
             </div>
-            <div className="relative">
+            <div className="relative flex flex-col justify-center items-center">
               <Image src="/img4.png" width={240} height={242} alt="Kids" />
-              <p className="absolute bottom-5 left-5 bg-white text-center py-2 px-4">KIDS</p>
+              <p className="absolute bottom-5 left-10 bg-white text-center py-2 px-4">KIDS</p>
             </div>
           </div>
+
         </div>
       </div>
     </main>

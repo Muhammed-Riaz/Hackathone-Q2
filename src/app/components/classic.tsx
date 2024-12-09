@@ -5,7 +5,7 @@ function Classic() {
   return (
     <main>
       {/* parent */}
-      <div className='mt-16 max-w-[1440px] lg:h-[711px] h-[1230px] mx-auto bg-[#23856D]'>
+      <div className='mt-16 max-w-[1440px] lg:h-[711px] h-[1230px] mx-auto bg-[#23856D] font-sans'>
 
         <div className='flex lg:flex-row flex-col justify-evenly items-center text-white lg:pt-5 pt-20 '>
 

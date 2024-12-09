@@ -3,7 +3,7 @@ import React from 'react';
 
 function Universe() {
   return (
-    <section>
+    <section className='font-sans'>
       <div className='mt-16 max-w-[1440px] mx-auto px-4'>
         <div className='flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-10 lg:gap-20'>
           {/* Image for larger screens */}

@@ -3,12 +3,12 @@ import React from 'react'
 
 function products() {
   return (
-    <section className='mt-20 relative z-0'>
+    <section className='mt-20 relative z-0 font-sans'>
       {/* top section */}
       <div className='py-20 px-5'>
         <p className='text-[#737373] text-xl text-center'>Featured Products</p>
         <h1 className='text-[#737373] text-2xl font-bold text-center my-3'>BESTSELLER PRODUCTS</h1>
-        <p className='text-[#737373] text-center'>Problems trying to resolve the conflict between</p>
+        <p className='text-[#737373] text-center '>Problems trying to resolve the conflict between</p>
       </div>
 
       {/* columns part */}
@@ -93,6 +93,7 @@ function products() {
           </div>
         </div>
       </div>
+      
     </section>
   )
 }

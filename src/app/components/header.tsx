@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { RxHamburgerMenu } from "react-icons/rx"; import {
+ import {
   Sheet,
   SheetContent,
   SheetHeader,
@@ -16,13 +16,12 @@ import { CiYoutube } from "react-icons/ci";
 import { CiFacebook } from "react-icons/ci";
 import { CiTwitter } from "react-icons/ci";
 import { IoMdContact } from "react-icons/io";
-
-
+import { BiMenuAltRight } from "react-icons/bi";
 
 function Header() {
   return (
 
-    <header className="max-w-screen-2xl mx-auto ">
+    <header className="max-w-screen-2xl mx-auto font-sans ">
 
       {/* top section header */}
       <div className='hidden lg:flex justify-around items-center  text-white bg-[#252B42] py-4 '>
@@ -63,7 +62,7 @@ function Header() {
       </div>
 
 {/* section 2 navbar */}
-      <div className='max-w-screen-2xl gap-5 flex items-center lg:justify-between lg:px-10 px-3 mt-5 '>
+      <div className='max-w-screen-2xl gap-3 flex items-center lg:justify-between lg:px-10 px-3 mt-5 mx-auto '>
 
         <div>
           <p className='text-3xl font-bold'>Bandage</p>
@@ -95,9 +94,22 @@ function Header() {
             </div>
 
             <div className="flex items-center lg:gap-5 gap-2">
-            <CiSearch size={30} fill="#23A6F0"/>
-            <CiHeart size={30} fill="#23A6F0" className="lg:block sm:hidden hidden" /><span className="text-[#23A6F0] lg:block sm:hidden hidden">1</span>
-            <IoCartOutline size={30} color="#23A6F0" /><span  className="text-[#23A6F0]">1</span>
+
+            <CiSearch size={30} fill="#23A6F0" className="lg:block sm:hidden hidden"/>
+
+            <CiSearch size={30}  className="lg:hidden sm:block block"/>
+
+            <CiHeart size={30} fill="#23A6F0" className="lg:block sm:hidden hidden" />
+
+            <span className="text-[#23A6F0] lg:block sm:hidden hidden">1</span>
+
+            <IoCartOutline size={30} color="#23A6F0" className="lg:block sm:hidden hidden" />
+
+            <IoCartOutline size={30} className="lg:hidden sm:block block" />
+
+            <span  
+            className="text-[#23A6F0] lg:block sm:hidden hidden">1</span>
+
             </div>
             
           </div>
@@ -105,16 +117,16 @@ function Header() {
 
         <Sheet >
         <SheetTrigger className="sm:hidden block">
-          <RxHamburgerMenu className="block sm:hidden" />
+          <BiMenuAltRight size={30} className="block sm:hidden" />
         </SheetTrigger>
         <SheetContent className="bg-white">
           <SheetHeader>
           <ul className=" text-[#737373] font-bold">
-            <Link href={"#"}><li>Home</li></Link>
+            <Link href={"/"}><li>Home</li></Link>
             <br />
             <Link href={"#"}><li>Product</li></Link>
             <br />
-            <Link href={"#"}><li>About</li></Link>
+            <Link href={"/about"}><li>About</li></Link>
             <br />
             <Link href={"#"}><li>Contact</li></Link>
           </ul>

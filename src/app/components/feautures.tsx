@@ -3,7 +3,7 @@ import React from 'react';
 
 function Features() {
   return (
-    <main>
+    <main className='font-sans'>
       {/* Parent */}
       <div className="max-w-[1050px] mx-auto mt-16 px-4">
         {/* Top Text */}
