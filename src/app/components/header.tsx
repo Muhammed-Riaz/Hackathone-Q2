@@ -124,7 +124,7 @@ function Header() {
           <ul className=" text-[#737373] font-bold">
             <Link href={"/"}><li>Home</li></Link>
             <br />
-            <Link href={"#"}><li>Product</li></Link>
+            <Link href={"/shop"}><li>Product</li></Link>
             <br />
             <Link href={"/about"}><li>About</li></Link>
             <br />
