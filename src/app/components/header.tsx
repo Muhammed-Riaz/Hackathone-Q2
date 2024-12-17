@@ -75,7 +75,7 @@ function Header() {
               <FaAngleDown className="" /></Link>
             <Link href={"/about"}><li>About</li></Link>
             <Link href={"#"}><li>Blog</li></Link>
-            <Link href={"#"}><li>Contact</li></Link>
+            <Link href={"/contact"}><li>Contact</li></Link>
             <Link href={"#"}><li>Pages</li></Link>
           </ul>
         </div>
@@ -121,14 +121,14 @@ function Header() {
         </SheetTrigger>
         <SheetContent className="bg-white">
           <SheetHeader>
-          <ul className=" text-[#737373] font-bold">
+          <ul className=" text-[#737373] font-bold text-[14px]">
             <Link href={"/"}><li>Home</li></Link>
             <br />
             <Link href={"/shop"}><li>Product</li></Link>
             <br />
             <Link href={"/about"}><li>About</li></Link>
             <br />
-            <Link href={"#"}><li>Contact</li></Link>
+            <Link href={"/"}><li>Contact</li></Link>
           </ul>
           </SheetHeader>
         </SheetContent>

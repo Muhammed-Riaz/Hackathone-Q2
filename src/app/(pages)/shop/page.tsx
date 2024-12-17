@@ -1,4 +1,5 @@
 import Footer from '@/app/components/footer';
+import Header from '@/app/components/header';
 import Image from 'next/image';
 import React from 'react';
 import { FaAngleDown } from "react-icons/fa";
@@ -8,6 +9,11 @@ function Shop() {
 
 
     <section>
+
+{/* header */}
+
+<Header/>
+
 
       <div className="mt-20 font-sans">
 
