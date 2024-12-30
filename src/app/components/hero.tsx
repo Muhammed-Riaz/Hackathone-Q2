@@ -3,7 +3,7 @@ import React from 'react';
 
 function Hero() {
   return (
-    <main className="max-w-screen-2xl mt-8 font-sans">
+    <main className="max-w-screen-2xl mx-auto mt-8 font-sans">
       {/* Hero Section */}
       <div className="relative">
         <div className="bg-[url('/hero.jpg')] bg-cover bg-center h-screen w-full flex items-center justify-center text-center lg:justify-start lg:text-left lg:px-32 px-5 relative z-20">
